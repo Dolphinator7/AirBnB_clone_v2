@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-def hello_hbnb():
+def hello_Airbnb():
     """Handles the root url"""
-    return 'Hello HBNB!'
+    return 'Hello Airbnb!'
 
 
 @app.route('/hbnb', strict_slashes=False)
-def hbnb():
+def Airbnb():
     """Handles hbnb route"""
     return 'HBNB'
 
@@ -23,4 +23,4 @@ def c_text(text):
 
 
 if __name__ == '__main__':
-    app.run("0.0.0.0", 5000)
+    app.run("0.0.0.0", 5002)
