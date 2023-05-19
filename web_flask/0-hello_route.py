@@ -2,7 +2,7 @@
 """Module - script that starts a Flask web application"""
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask('web_flask')
 
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def hello():
